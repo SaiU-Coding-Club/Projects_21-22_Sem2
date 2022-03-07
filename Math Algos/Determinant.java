@@ -61,9 +61,9 @@ public class Determinant {  //Every java program is created as a class with the 
     void display(){
         System.out.println("Determinant");
         System.out.println();
-        for(int i=0;i<3;i++){
+        for(int i=0;i<n;i++){
             System.out.print("|");
-            for(int j=0;j<3;j++){
+            for(int j=0;j<n;j++){
                 System.out.print(a[i][j]+"  ");}
             System.out.println("|");
         }
